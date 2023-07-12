@@ -13,7 +13,7 @@ const Certification: FC<CertificationProps> = (props) => {
     <div className={styled.container}>
       <Image
         className={styled.icon}
-        src={props.icon}
+        src={`${props.icon}`}
         width={100}
         height={100}
         alt="icon"
